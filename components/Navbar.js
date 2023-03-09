@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <nav className={style.navbar}>
       <ul className={style.navItems}>
-        <li className={style.navitem}><Link href="/">Home</Link></li>
-        <li className={style.navitem}><Link href="/profile">profile</Link></li>
-        <li className={style.navitem}><Link href="/about">about</Link></li>
+        <li className={style.navitem}><Link className={style.link} href="/">Home</Link></li>
+        <li className={style.navitem}><Link className={style.link} href="/profile/daudi">profile</Link></li>
+        <li className={style.navitem}><Link className={style.link} href="/about">about</Link></li>
       </ul>
   </nav>
   )
