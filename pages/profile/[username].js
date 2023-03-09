@@ -5,7 +5,7 @@ const Profile = () => {
   const { username } = router.query;
   return (
   <main className={styles.main}>
-    <div>Hello {username}!</div>
+    <h3>Hello {username}!</h3>
   </main>)
 }
 
